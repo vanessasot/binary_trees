@@ -41,7 +41,6 @@ void binary_tree_inorder(const binary_tree_t *tree, void (*func)(int));
 void binary_tree_postorder(const binary_tree_t *tree, void (*func)(int));
 size_t binary_tree_height(const binary_tree_t *tree);
 size_t binary_tree_depth(const binary_tree_t *tree);
-void enume(const binary_tree_t *node, size_t *size);
 size_t binary_tree_size(const binary_tree_t *tree);
 void enum_leaf(const binary_tree_t *node, size_t *leaves);
 size_t binary_tree_leaves(const binary_tree_t *tree);
