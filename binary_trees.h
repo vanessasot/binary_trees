@@ -53,4 +53,11 @@ binary_tree_t *binary_tree_uncle(binary_tree_t *node);
 
 void binary_tree_print(const binary_tree_t *tree);
 
+/* Advanced */
+
+void binary_tree_levelorder(const binary_tree_t *tree, void (*func)(int));
+int height(const binary_tree_t *tree);
+int max(int a, int b);
+void func_level(const binary_tree_t *tree, int level, void (*func)(int));
+
 #endif /* BINARY_TREES */
